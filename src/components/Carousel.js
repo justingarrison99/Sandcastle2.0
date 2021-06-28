@@ -76,7 +76,7 @@ class Carousel extends React.Component {
 
         return (
             <Container fluid>
-                <Row className="mx-5">
+                <Row className="mx-auto">
                     {this.makeItems(this.state.items)}
                 </Row>
 

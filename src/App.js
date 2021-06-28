@@ -63,7 +63,7 @@ class App extends React.Component {
 
           <Navbar className="border-bottom" expand="lg" style={{backgroundColor:'#f9ee9d'}}>
 
-            <Navbar.Brand className="navbar-brand" href="/">
+            <Navbar.Brand className="navbar-brand shake" href="/">
               <img
                 alt=""
                 src={Sandyskull}
@@ -72,9 +72,6 @@ class App extends React.Component {
                 className="align-bottom"
               />
                 Sandcastle</Navbar.Brand>
-            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
-            <Navbar.Collapse id="navbar-toggle">
-            </Navbar.Collapse>
           </Navbar>
 
           <Route path="/" exact render={() => <Homepage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />}></Route>
