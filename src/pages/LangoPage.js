@@ -39,16 +39,16 @@ function LangoPage() {
                     <Row>
                         <h1 className="hero-text text-center">Stream</h1>
                         <Col className="py-5 offset-2">
-                            <a href="https://www.instagram.com/sandcastlebandofficial/" target="_blank">
+                            <a href="https://music.apple.com/us/album/lango-single/1545324646" target="_blank">
                                 <Image className="stream-image" src={apple} rounded />
                             </a>
-                            <a href="https://www.facebook.com/SandcastleBandOfficial/" target="_blank">
+                            <a href="https://open.spotify.com/album/3beXD3QpDiF30nF4Cu6DPO?si=-X35AQlTTGuuizPhEKvl8w&dl_branch=1&nd=1" target="_blank">
                                 <Image className="stream-image" src={spotify} rounded />
                             </a>
-                            <a href="https://www.tiktok.com/@sandcastlebandofficial" target="_blank">
+                            <a href="https://www.youtube.com/watch?v=khRSpgXqiNE&list=UUErup9Pvw6GFX6QAsMjrKYw" target="_blank">
                                 <Image className="stream-image" src={youtube} rounded />
                             </a>
-                            <a href="https://www.tiktok.com/@sandcastlebandofficial" target="_blank">
+                            <a href="https://soundcloud.com/sandcastlebandofficial/sets/lango" target="_blank">
                                 <Image className="stream-image" src={soundcloud} rounded />
                             </a>
                         </Col>
