@@ -16,13 +16,13 @@ function SocialPage(props) {
             <Hero title={props.title} subTitle={props.subTitle} />
             <Row className="social-pad">
                 <Col className="offset-3">
-                    <a href="https://www.instagram.com/sandcastlebandofficial/" target="_blank">
+                    <a href="https://www.instagram.com/sandcastlebandofficial/" target="_blank" rel="noreferrer">
                         <Image className="stream-image" src={instagram} rounded />
                     </a>
-                    <a href="https://www.facebook.com/SandcastleBandOfficial/" target="_blank">
+                    <a href="https://www.facebook.com/SandcastleBandOfficial/" target="_blank" rel="noreferrer">
                         <Image className="stream-image" src={facebook} rounded />
                     </a>
-                    <a href="https://www.tiktok.com/@sandcastlebandofficial" target="_blank">
+                    <a href="https://www.tiktok.com/@sandcastlebandofficial" target="_blank" rel="noreferrer">
                         <Image className="stream-image" src={tiktok} rounded />
                     </a>
                 </Col>

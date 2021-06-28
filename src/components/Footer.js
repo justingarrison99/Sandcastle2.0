@@ -14,7 +14,7 @@ function Footer() {
                     </Col>
                     <Col className="p-0 d-flex justify-content-end hero-text" md={3}>
                         Developed by Justin Garrison__
-                        <a href="https://github.com/justingarrison99" target="_blank">
+                        <a href="https://github.com/justingarrison99" target="_blank" rel="noreferrer">
                             <Image className="github-image" src={github} rounded />
                         </a>
                     </Col>
