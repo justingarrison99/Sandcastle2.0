@@ -29,7 +29,7 @@ class Carousel extends React.Component {
                     title: "Gigs",
                     subTitle: "See when we're playing next",
                     imgSrc: gigs,
-                    link: "",
+                    link: "/gigs",
                     selected: false
 
                 },

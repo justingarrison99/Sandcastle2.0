@@ -11,6 +11,7 @@ import Aboutpage from './pages/Aboutpage';
 import Contactpage from './pages/Contactpage';
 import LangoPage from './pages/LangoPage';
 import SocialPage from './pages/SocialPage'
+import GigPage from './pages/GigPage';
 
 import Sandyskull from './assets/images/sandyskull.svg'
 
@@ -24,7 +25,8 @@ class App extends React.Component {
         { title: 'About', path: '/about' },
         { title: 'Contact', path: '/contact' },
         { title: 'Lango', path: '/lango'},
-        { title: 'Social', path: '/socials'}
+        { title: 'Social', path: '/socials'},
+        { title: 'Gigs', path: '/gigs'}
       ],
       home: {
         title: 'Sandcastle',
@@ -46,6 +48,10 @@ class App extends React.Component {
       social: {
         title: 'Dont be a stranger!',
         subTitle: 'Follow Us!'
+      },
+      gig: {
+        title: 'Live Shows!',
+        subTitle: 'See when we\'re playing next!'
       }
     }
   }
@@ -76,6 +82,7 @@ class App extends React.Component {
           <Route path="/contact" exact render={() => <Contactpage title={this.state.contact.title} subTitle={this.state.contact.subTitle} />}></Route>
           <Route path="/lango" exact render={() => <LangoPage title={this.state.lango.title} subTitle={this.state.lango.subTitle} />}></Route>
           <Route path="/socials" exact render={() => <SocialPage title={this.state.social.title} subTitle={this.state.social.subTitle} />}></Route>
+          <Route path="/gigs" exact render={() => <GigPage title={this.state.gig.title} subTitle={this.state.gig.subTitle} />}></Route>
 
           <Footer />
 
