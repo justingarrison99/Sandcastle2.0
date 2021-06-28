@@ -23,6 +23,10 @@ code {
 .g-card {
   margin: 20px;
 }
+.g-card:hover{
+  margin:20px;
+  transform: translate(0px, 2px);
+}
 .g-card-image {
   border-radius: 10px;
   width: 300px;

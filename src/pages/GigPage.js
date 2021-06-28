@@ -14,7 +14,7 @@ function GigPage(props) {
                 <Col className="py-5">
                     <Table striped border hover>
                         <thead>
-                            <tr className="hero-text">
+                            <tr className="hero-text text-center">
                                 <th>
                                     Event Name
                                 </th>
@@ -27,7 +27,7 @@ function GigPage(props) {
                             </tr>
                         </thead>
                         <tbody>
-                            <tr className="hero-text">
+                            <tr className="hero-text text-center">
                                 <td>
                                     Frogmore Jam
                                 </td>
