@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import lango from "../assets/images/lango.png"
-import gigs from "../assets/images/Gig.jpg"
+import gigs from "../assets/images/gig.png"
 import socials from "../assets/images/sandyskull.png"
 
 import Card from '../components/Card'
